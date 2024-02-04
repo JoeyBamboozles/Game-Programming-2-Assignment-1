@@ -1,0 +1,2265 @@
+fileFormatVersion: 2
+guid: 31c3d8b6749791e47ab9917d625eca9a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monkey_8sheet_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 506
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2fb1a573640874c9cf8fa350362785
+      internalID: -1753801409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 506
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f76e881396d4f64385a8b647ec8c2ff
+      internalID: 1798018319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 506
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9bad8bc506ad746b1977f7d4f6838d
+      internalID: -1578705440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_3
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 506
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6652eb2e7532d2c4581dc08799a02a20
+      internalID: -2098666183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_4
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 506
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40775bc36133714d8cc6518ec55599c
+      internalID: 1731580776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_5
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 506
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc7f6837afc4804bb78c2aa4b58c6fa
+      internalID: 1518430831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_6
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 506
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0841670a3d42342baefdae9370eb99
+      internalID: 1711825734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_7
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 506
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd5d82c02bbf714888b15d375ae3377
+      internalID: -1762795039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_8
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 506
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30b25782e536be4d87a986d76dfd24e
+      internalID: -1432155554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_9
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 506
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f37a27a5d717648b6604569525839f
+      internalID: -1815930001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_10
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 506
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44491ced3833484daf066365740d5f2
+      internalID: -538811083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_11
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 506
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0f1e54de5c9cf47bdb7550b37a4b52
+      internalID: 1825329823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 434
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31394266d1d6bd6418e33a3908fee4c5
+      internalID: 760677511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_13
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 434
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f9c02ba1624e9499e8ec8b2a2dd0e1
+      internalID: -803876830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_14
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 434
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03755a8d149e5cc41b0f758122d84e04
+      internalID: -1922933250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_15
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 434
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affbf17949ea0a745ae8ca529cabc07e
+      internalID: 1840052870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 434
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5595f73ae06e64b93a9c9db867ce02
+      internalID: 893464093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_17
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 434
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3676b7dad8f14474982eebd7f122fe15
+      internalID: 1363394320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_18
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 434
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a5cdffc9358004597ea7ab28ae525e
+      internalID: 402380824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_19
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 434
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e3eae3d8c94a344a5c50e62a179189
+      internalID: 1602741783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_20
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 434
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe893836f6f8a544b48758a0ebd0572
+      internalID: 1891897690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_21
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 434
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58777be39b89e4d45b6676bbfbb95769
+      internalID: -1970540682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_22
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 434
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63aadce84d2ad774a815c548b708165c
+      internalID: 1672752563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_23
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 434
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a56f6de3ba52c439f207f9b55527c2
+      internalID: -1060604485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 362
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d76ac0b59ff9144b9044f8d23d2fb72
+      internalID: -1456754600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_25
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 362
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65e5ab7e679a844980c6d722f3a7dbe
+      internalID: 270159715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_26
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 362
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68301f16b79d714ca98f30499e1db2f
+      internalID: 1937065871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_27
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 362
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5fcb74f5c1b1a46823d2c665804e6b
+      internalID: -353465306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_28
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 362
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbff929aac64f845986413000b02fde
+      internalID: -784125226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_29
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 362
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d36d4c5f4b50b949b1c97c18388be05
+      internalID: -1734568148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_30
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 362
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2034a2373af384bb5d23df75a66bf3
+      internalID: 1096027755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_31
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 362
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f35128b4a8e0e34da3e0e181ae9170e
+      internalID: -632800204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_32
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 362
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bfa40c7c3e42f438c713a12712f5d7
+      internalID: 546927860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_33
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 362
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8dca92e21af4de4fbf285a16fbefa28
+      internalID: 565775363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_34
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 362
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1999d5dc6488d34e8129871d3f78558
+      internalID: 1576428718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_35
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 362
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696e3b6ee4ab4a44fb93268d97af46ed
+      internalID: 874879386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 290
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b487848aa8e084aa77af0bb3580e8a
+      internalID: 4872810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 290
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67d79fc8fdd7b44cb96ea8a66742778
+      internalID: 1095632708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_38
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 290
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d7e8e8779059d4594d3b1bfbb65652
+      internalID: -1224342276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_39
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 290
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c711c10279de54ebfdc281e5296c0e
+      internalID: -269784646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_40
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 290
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4647f9c0c22ac8f4e80dc645517d5cff
+      internalID: 2144964427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_41
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 290
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551623c088021c640ae61ca1e7539e99
+      internalID: -275196257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_42
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 290
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce6fe9502734b74eaa6a11b943c065c
+      internalID: 1322194326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_43
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 290
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42052e830fd38184881eae63fbf8c0b5
+      internalID: 490010899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_44
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 290
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e37764cf15ee9458c8f3bf1636a6b4
+      internalID: 1642361786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_45
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 290
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705b17e020ded3444941e7101c651a97
+      internalID: -575546724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_46
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 290
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110aeb1947bd1c94ba1e91dcc00c5c08
+      internalID: -141129430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_47
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 290
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93cfed49f3514d488b97edf8a02382c
+      internalID: 39262726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_48
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 220
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00ec2be37222da4fa392cfb780b6c37
+      internalID: -201908194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 218
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345f861c94d083447a3520213f334512
+      internalID: -179213362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_50
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 220
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225a5d120f959c446a536ad6008441f1
+      internalID: -72150508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_51
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 220
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39dc115e1b72e8b47bf7387b61b57b68
+      internalID: 634648435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_52
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 218
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5dc50c7c7d2054ab2a55b4178cbf15
+      internalID: -419063012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_53
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 220
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476e437cf15fa34438c8a54f5491f9e4
+      internalID: 29130185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_54
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 220
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda8c8b7741fcc742878beb2c68883a3
+      internalID: 580167013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_55
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 218
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273557ca72361e74ea16623ed6d335ff
+      internalID: -1628034282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_56
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 220
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ba156fabab72142a6fd57e1a5c22c8
+      internalID: -1968964246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_57
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 220
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000b14058f1df204c86009a8897c5ca4
+      internalID: 1725598108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_58
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 218
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e0125d895c687488c4a1dba29e0539
+      internalID: 2052948200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_59
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 220
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfeedf2710958c4c85f830bf17ce728
+      internalID: -2098654776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_60
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 154
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009fbccafdd42ea419ff8752d9faae63
+      internalID: 280331207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_61
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0da54f6ffb436d40b73166015f446d9
+      internalID: 2030873220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_62
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 146
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea649290b656ce4d9af4e076c432ce0
+      internalID: 926985607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_63
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 154
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b48bcd5b9009fe42affdd31338dea60
+      internalID: 1330426324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_64
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cd49c98e3ef8843aa013d692a7fcd8
+      internalID: -2006782724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_65
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 146
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1103c27412e7e1a44a3da89d372113b0
+      internalID: 273965243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_66
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 154
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e6a54ef8fec9e47971eefa1e8cec18
+      internalID: 1516919969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_67
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec0ae257518e3242bec07fcf78b7046
+      internalID: 1608114757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_68
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 146
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829b730bc39bb73439614b5f20b9fdac
+      internalID: -550018487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_69
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 154
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c627ce8da8f91149a5e95d5e32dd64a
+      internalID: 2103274287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_70
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6ff5d8526d88d40a4d8b4079c63b52
+      internalID: 2125318513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_71
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 146
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283e528ccc7498a4ab3a9dc462c400b2
+      internalID: 862819506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_72
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 74
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61be7c52d96f2e845be7a41db0afc44d
+      internalID: -1067679647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_73
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbabaf263d9081419474cc87215dfb5
+      internalID: 2020709130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_74
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 74
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0807d3d2f3d96a4e8754a80996fb361
+      internalID: -2116226620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_75
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 74
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f8524219c45274fb01c46de853670b
+      internalID: -1429040855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_76
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c86565dca3cf847ac70883027318a7
+      internalID: 1535457218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_77
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 74
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b226d60324150b04180a8a6ad488d772
+      internalID: -103838683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_78
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 74
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8a13a68cd6d4e45bbaa6f8c779449d
+      internalID: -700094185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_79
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04089dc574fad840abf8a86b3d1ae75
+      internalID: 296491709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_80
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 74
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8189559564a791742bd01f37da0228d3
+      internalID: -551157911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_81
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 74
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1bb54ab6b9b514f863100a9dea9402
+      internalID: -388212485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_82
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276dcef06c582f2489f513c671550a03
+      internalID: 275593507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_83
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 74
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72e5c6a949238b4386ebbf611ff1a3f
+      internalID: 595945501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_84
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63290276efd9b31458d28461042ba33a
+      internalID: -543083071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_85
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8952818825a2e94a90936739ec9a313
+      internalID: -1924104828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_86
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d660883a8903f5344b2bba7cfde06e71
+      internalID: -1329702646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_87
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc7dfd8dff5efa45bcbb5077410bff2
+      internalID: -1787806510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_88
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3108b8678ce5e904faed66e70b9bbed1
+      internalID: -86165668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_89
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 2
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cb33eee1a669144a9e1744136a84cd
+      internalID: -1291815904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_90
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 2
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c37398b1441964bbdb00b03e36b820
+      internalID: -1358491249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_91
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73a85476463d3540aa7d0b4615d9c4a
+      internalID: -1904488094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_92
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 2
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6081394202f5344bc0cc1ed76b202e
+      internalID: 1038392407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_93
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 2
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05559e531155974418a4259a25d93dfc
+      internalID: -2138114866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_94
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77eb6ecfd0abdb41ae29cddd768b364
+      internalID: 371283934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey_8sheet_95
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 2
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384a0b2bccc9c9f4c8fbc9ed9f598b0e
+      internalID: 1572866558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      monkey_8sheet_0: -1753801409
+      monkey_8sheet_1: 1798018319
+      monkey_8sheet_10: -538811083
+      monkey_8sheet_11: 1825329823
+      monkey_8sheet_12: 760677511
+      monkey_8sheet_13: -803876830
+      monkey_8sheet_14: -1922933250
+      monkey_8sheet_15: 1840052870
+      monkey_8sheet_16: 893464093
+      monkey_8sheet_17: 1363394320
+      monkey_8sheet_18: 402380824
+      monkey_8sheet_19: 1602741783
+      monkey_8sheet_2: -1578705440
+      monkey_8sheet_20: 1891897690
+      monkey_8sheet_21: -1970540682
+      monkey_8sheet_22: 1672752563
+      monkey_8sheet_23: -1060604485
+      monkey_8sheet_24: -1456754600
+      monkey_8sheet_25: 270159715
+      monkey_8sheet_26: 1937065871
+      monkey_8sheet_27: -353465306
+      monkey_8sheet_28: -784125226
+      monkey_8sheet_29: -1734568148
+      monkey_8sheet_3: -2098666183
+      monkey_8sheet_30: 1096027755
+      monkey_8sheet_31: -632800204
+      monkey_8sheet_32: 546927860
+      monkey_8sheet_33: 565775363
+      monkey_8sheet_34: 1576428718
+      monkey_8sheet_35: 874879386
+      monkey_8sheet_36: 4872810
+      monkey_8sheet_37: 1095632708
+      monkey_8sheet_38: -1224342276
+      monkey_8sheet_39: -269784646
+      monkey_8sheet_4: 1731580776
+      monkey_8sheet_40: 2144964427
+      monkey_8sheet_41: -275196257
+      monkey_8sheet_42: 1322194326
+      monkey_8sheet_43: 490010899
+      monkey_8sheet_44: 1642361786
+      monkey_8sheet_45: -575546724
+      monkey_8sheet_46: -141129430
+      monkey_8sheet_47: 39262726
+      monkey_8sheet_48: -201908194
+      monkey_8sheet_49: -179213362
+      monkey_8sheet_5: 1518430831
+      monkey_8sheet_50: -72150508
+      monkey_8sheet_51: 634648435
+      monkey_8sheet_52: -419063012
+      monkey_8sheet_53: 29130185
+      monkey_8sheet_54: 580167013
+      monkey_8sheet_55: -1628034282
+      monkey_8sheet_56: -1968964246
+      monkey_8sheet_57: 1725598108
+      monkey_8sheet_58: 2052948200
+      monkey_8sheet_59: -2098654776
+      monkey_8sheet_6: 1711825734
+      monkey_8sheet_60: 280331207
+      monkey_8sheet_61: 2030873220
+      monkey_8sheet_62: 926985607
+      monkey_8sheet_63: 1330426324
+      monkey_8sheet_64: -2006782724
+      monkey_8sheet_65: 273965243
+      monkey_8sheet_66: 1516919969
+      monkey_8sheet_67: 1608114757
+      monkey_8sheet_68: -550018487
+      monkey_8sheet_69: 2103274287
+      monkey_8sheet_7: -1762795039
+      monkey_8sheet_70: 2125318513
+      monkey_8sheet_71: 862819506
+      monkey_8sheet_72: -1067679647
+      monkey_8sheet_73: 2020709130
+      monkey_8sheet_74: -2116226620
+      monkey_8sheet_75: -1429040855
+      monkey_8sheet_76: 1535457218
+      monkey_8sheet_77: -103838683
+      monkey_8sheet_78: -700094185
+      monkey_8sheet_79: 296491709
+      monkey_8sheet_8: -1432155554
+      monkey_8sheet_80: -551157911
+      monkey_8sheet_81: -388212485
+      monkey_8sheet_82: 275593507
+      monkey_8sheet_83: 595945501
+      monkey_8sheet_84: -543083071
+      monkey_8sheet_85: -1924104828
+      monkey_8sheet_86: -1329702646
+      monkey_8sheet_87: -1787806510
+      monkey_8sheet_88: -86165668
+      monkey_8sheet_89: -1291815904
+      monkey_8sheet_9: -1815930001
+      monkey_8sheet_90: -1358491249
+      monkey_8sheet_91: -1904488094
+      monkey_8sheet_92: 1038392407
+      monkey_8sheet_93: -2138114866
+      monkey_8sheet_94: 371283934
+      monkey_8sheet_95: 1572866558
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
