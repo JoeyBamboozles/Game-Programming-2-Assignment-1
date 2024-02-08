@@ -11,22 +11,22 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 5913855811418891838}
-    m_Position: {x: 260, y: 110, z: 0}
+    m_Position: {x: 270, y: 120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3399873343789998175}
-    m_Position: {x: 270, y: 200, z: 0}
+    m_Position: {x: 720, y: 280, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7865625648850707261}
-    m_Position: {x: 270, y: 260, z: 0}
+    m_Position: {x: 220, y: 280, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 649334823188723507}
-    m_Position: {x: 305, y: 325, z: 0}
+    m_Position: {x: 480, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4382416375924305548}
-    m_Position: {x: 340, y: 390, z: 0}
+    m_Position: {x: 480, y: 390, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -368877204619029051}
-    m_Position: {x: 375, y: 455, z: 0}
+    m_Position: {x: 480, y: 280, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -44,7 +44,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Idle
+  m_Name: Gorilla_Idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -57,7 +57,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: e295455b5c9771b4aa156da23819dc9d, type: 2}
+  m_Motion: {fileID: 7400000, guid: d4ae15f642b24a14b911009fbfed15a0, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -69,7 +69,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AnimalControllerHorse
+  m_Name: AnimalControllerGorilla
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: MoveX
@@ -106,31 +106,31 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: c9388fc562e3fb84bb6f7dffd5e10814, type: 2}
+    m_Motion: {fileID: 7400000, guid: 73b3d864953d05a42ad45b41a8640f79, type: 2}
     m_Threshold: 0
-    m_Position: {x: -1, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: MoveX
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: bbf609fd127189b47b4a2c3383a59cb7, type: 2}
-    m_Threshold: 0.25
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: MoveX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 092d82e3c7dd16141aad836a61e4032d, type: 2}
-    m_Threshold: 0.5
+    m_Motion: {fileID: 7400000, guid: 20854fad1aac34543b9e04aa1a9445e0, type: 2}
+    m_Threshold: 0.25
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: MoveX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: cf4c3fddd71ccc4489729ebb859904d4, type: 2}
+    m_Motion: {fileID: 7400000, guid: 246c95f8c808540438818f12509ceabf, type: 2}
+    m_Threshold: 0.5
+    m_Position: {x: -1, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: MoveX
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 51e71e210cc09a14f97296e1c323c9d6, type: 2}
     m_Threshold: 0.75
     m_Position: {x: 1, y: 0}
     m_TimeScale: 1
@@ -138,7 +138,7 @@ BlendTree:
     m_DirectBlendParameter: MoveX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: e295455b5c9771b4aa156da23819dc9d, type: 2}
+    m_Motion: {fileID: 7400000, guid: d4ae15f642b24a14b911009fbfed15a0, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -159,7 +159,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MoveUp
+  m_Name: Gorilla_Up
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -172,7 +172,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: cf4c3fddd71ccc4489729ebb859904d4, type: 2}
+  m_Motion: {fileID: 7400000, guid: 20854fad1aac34543b9e04aa1a9445e0, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -185,7 +185,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HorseRight
+  m_Name: Gorilla_Right
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -198,7 +198,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 092d82e3c7dd16141aad836a61e4032d, type: 2}
+  m_Motion: {fileID: 7400000, guid: 51e71e210cc09a14f97296e1c323c9d6, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -211,7 +211,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MoveDown
+  m_Name: Gorilla_Down
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -224,7 +224,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: c9388fc562e3fb84bb6f7dffd5e10814, type: 2}
+  m_Motion: {fileID: 7400000, guid: 73b3d864953d05a42ad45b41a8640f79, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -263,7 +263,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HorseLeft
+  m_Name: Gorilla_Left
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -276,7 +276,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: bbf609fd127189b47b4a2c3383a59cb7, type: 2}
+  m_Motion: {fileID: 7400000, guid: 246c95f8c808540438818f12509ceabf, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

@@ -21875,7 +21875,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4354577049066082145, guid: f0388aa661bf77a408ac9f1b25f90a03, type: 3}
       propertyPath: m_Name
-      value: Animal_PF_Hourse
+      value: Animal_PF_Horse
       objectReference: {fileID: 0}
     - target: {fileID: 4354577049066082145, guid: f0388aa661bf77a408ac9f1b25f90a03, type: 3}
       propertyPath: m_IsActive
