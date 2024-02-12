@@ -1,31 +1,47 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GorillaController : MonoBehaviour
 {
+    public float moveSpeed = 2.50f; 
+    public float distanceBeforeTurn = 7.50f; 
+    public Rigidbody2D rb;
+    public Animator animator;
 
-    private Transform target;
-    public float speed;
-    private Vector2 movement;
-    private Animator animator;
+    
+    private Vector2[] moveDirections = { Vector2.right, Vector2.down, Vector2.left, Vector2.up };
+    private int currentDirectionIndex = 0;
+    private Vector2 currentTarget;
 
-    // Start is called before the first frame update
     void Start()
     {
-        target = GameObject.Find("Player").GetComponent<Transform>();
-        animator = GetComponent<Animator>();
+        
+        currentTarget = rb.position + moveDirections[currentDirectionIndex] * distanceBeforeTurn;
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        movement.x = transform.position.x;
-        movement.y = transform.position.y;
+        
+        Vector2 movementDirection = (currentTarget - rb.position).normalized;
 
-        animator.SetFloat("MoveY", movement.x);
-        animator.SetFloat("MoveX", movement.y);
+        
+        rb.MovePosition(rb.position + movementDirection * moveSpeed * Time.fixedDeltaTime);
 
-        transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.fixedDeltaTime);
+        
+        animator.SetFloat("Horizontal", movementDirection.x);
+        animator.SetFloat("Vertical", movementDirection.y);
+        animator.SetFloat("Speed", movementDirection.magnitude);
+
+       
+        if (Vector2.Distance(rb.position, currentTarget) <= 0.1f)
+        {
+            currentDirectionIndex = (currentDirectionIndex + 1) % moveDirections.Length;
+
+            
+            currentTarget = rb.position + moveDirections[currentDirectionIndex] * distanceBeforeTurn;
+        }
     }
 }
+
