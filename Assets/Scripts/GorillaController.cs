@@ -5,43 +5,42 @@ using UnityEngine;
 
 public class GorillaController : MonoBehaviour
 {
-    public float moveSpeed = 2.50f; 
-    public float distanceBeforeTurn = 7.50f; 
-    public Rigidbody2D rb;
-    public Animator animator;
-
-    
-    private Vector2[] moveDirections = { Vector2.right, Vector2.down, Vector2.left, Vector2.up };
-    private int currentDirectionIndex = 0;
-    private Vector2 currentTarget;
-
+    public Transform[] patrolPoints;
+    public int targetPoint;
+    public float speed;
+    private Animator animator;
+    // Start is called before the first frame update
     void Start()
     {
-        
-        currentTarget = rb.position + moveDirections[currentDirectionIndex] * distanceBeforeTurn;
+        targetPoint = 0;
+        animator = GetComponent<Animator>();
     }
 
-    void FixedUpdate()
+    // Update is called once per frame
+    void Update()
     {
-        
-        Vector2 movementDirection = (currentTarget - rb.position).normalized;
 
-        
-        rb.MovePosition(rb.position + movementDirection * moveSpeed * Time.fixedDeltaTime);
+        Vector3 direction = (patrolPoints[targetPoint].position - transform.position).normalized;
 
-        
-        animator.SetFloat("Horizontal", movementDirection.x);
-        animator.SetFloat("Vertical", movementDirection.y);
-        animator.SetFloat("Speed", movementDirection.magnitude);
-
-       
-        if (Vector2.Distance(rb.position, currentTarget) <= 0.1f)
+        if (transform.position == patrolPoints[targetPoint].position)
         {
-            currentDirectionIndex = (currentDirectionIndex + 1) % moveDirections.Length;
+            increaseTargetInt();
+        }
+        transform.position = Vector3.MoveTowards(transform.position, patrolPoints[targetPoint].position, speed * Time.deltaTime);
 
-            
-            currentTarget = rb.position + moveDirections[currentDirectionIndex] * distanceBeforeTurn;
+        // Update animator parameters based on movement direction
+        animator.SetFloat("Horizontal", direction.x);
+        animator.SetFloat("Vertical", direction.y);
+
+
+    }
+
+    void increaseTargetInt()
+    {
+        targetPoint++;
+        if (targetPoint >= patrolPoints.Length)
+        {
+            targetPoint = 0;
         }
     }
 }
-
