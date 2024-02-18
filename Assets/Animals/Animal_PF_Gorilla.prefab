@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5548943665427133639}
   m_Layer: 0
   m_Name: Animal_PF_Gorilla
-  m_TagString: Untagged
+  m_TagString: Gorilla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,7 +114,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &1283077731713191901
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -183,7 +183,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b079bd8186457334a8b6e8ce59d48334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2.5
-  distanceBeforeTurn: 7.5
-  rb: {fileID: 1896015216017049765}
-  animator: {fileID: 4913037477514452494}
+  patrolPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  targetPoint: 0
+  speed: 2
