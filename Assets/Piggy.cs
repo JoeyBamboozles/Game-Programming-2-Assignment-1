@@ -1,14 +1,14 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 namespace Assets.Scripts
 {
     #region RegionName
-    public class Horse : Animal
+    public class Piggy : Animal
     {
-        public Horse(string name, int age, string species) : base(name, age, species)
+        public Piggy(string name, int age, string species) : base(name, age, species)
         {
             Name = name;
             Age = age;
@@ -16,28 +16,24 @@ namespace Assets.Scripts
         }
         public override void MakeSound()
         {
-            Debug.Log("The horse neighs: ");
+            Debug.Log("The piggy goes Oink!: ");
         }
-        //public override void Display()
-        //{
-        //    Debug.Log($"Name: {Name}, Age: {Age}, Species: Horse");
-        //}
     }
-    #endregion
-    public class HorseController : MonoBehaviour
+
+    public class PiggyController : MonoBehaviour
     {
         private Transform target;
         public float speed;
         private Vector2 movement;
         private Animator animator;
-        Horse myHorse;
+        Piggy myPiggy;
         private bool isInProximity = false;
         // Start is called before the first frame update
         void Start()
         {
             target = GameObject.Find("Player").GetComponent<Transform>();
             animator = GetComponent<Animator>();
-            myHorse = new Horse("Bob", 13, "Equine");
+            myPiggy = new Piggy("Bob", 13, "Equine");
         }
         // Update is called once per frame
         void Update()
@@ -60,8 +56,8 @@ namespace Assets.Scripts
         {
             if (collision.gameObject.tag == "Player")
             {
-                myHorse.MakeSound();
-                myHorse.Display();
+                myPiggy.MakeSound();
+                myPiggy.Display();
                 isInProximity = true;
             }
         }
@@ -69,10 +65,35 @@ namespace Assets.Scripts
         {
             if (collision.gameObject.tag == "Player")
             {
-                myHorse.MakeSound();
+                myPiggy.MakeSound();
                 isInProximity = false;
-                myHorse.Display();
+                myPiggy.Display();
             }
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
