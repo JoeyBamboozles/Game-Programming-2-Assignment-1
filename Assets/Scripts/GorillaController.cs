@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class GorillaController : MonoBehaviour
 {
-    public Transform[] patrolPoints;
-    public int targetPoint;
-    public float speed;
-    private Animator animator;
+    [SerializeField] public Transform[] patrolPoints;
+    [SerializeField] public int targetPoint;
+    [SerializeField] public float speed;
+     private Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
