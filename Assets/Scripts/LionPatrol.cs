@@ -2,45 +2,64 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LionPatrol : MonoBehaviour
+namespace Assets.Scripts
 {
-    public Transform[] patrolPoints;
-    public int targetPoint;
-    public float speed;
-    private Animator animator;
-    // Start is called before the first frame update
-    void Start()
+    public class Lion : Animal
     {
-        targetPoint = 0;
-        animator = GetComponent<Animator>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-        Vector3 direction = (patrolPoints[targetPoint].position - transform.position).normalized;
-
-        if (transform.position == patrolPoints[targetPoint].position)
+        public Lion(string name, int age, string species) : base(name, age, species)
         {
-            increaseTargetInt();
+            Name = name;
+            Age = age;
+            Species = species;
         }
-        transform.position = Vector3.MoveTowards(transform.position, patrolPoints[targetPoint].position, speed * Time.deltaTime);
-
-        // Update animator parameters based on movement direction
-        animator.SetFloat("Horizontal", direction.x);
-        animator.SetFloat("Vertical", direction.y);
-        
-
+        public override void MakeSound()
+        {
+            Debug.Log("Alex is all Roar no Bite");
+        }
     }
 
-    void increaseTargetInt()
+    public class LionPatrol : MonoBehaviour
     {
-        targetPoint++;
-        if (targetPoint >= patrolPoints.Length)
+        public Transform[] patrolPoints;
+        public int targetPoint;
+        public float speed;
+        private Animator animator;
+        Lion myLion;
+        // Start is called before the first frame update
+        void Start()
         {
             targetPoint = 0;
+            animator = GetComponent<Animator>();
+            myLion = new Lion("Alex", 15, "Lion");
         }
-    }
 
+        // Update is called once per frame
+        void Update()
+        {
+
+            Vector3 direction = (patrolPoints[targetPoint].position - transform.position).normalized;
+
+            if (transform.position == patrolPoints[targetPoint].position)
+            {
+                increaseTargetInt();
+            }
+            transform.position = Vector3.MoveTowards(transform.position, patrolPoints[targetPoint].position, speed * Time.deltaTime);
+
+            // Update animator parameters based on movement direction
+            animator.SetFloat("Horizontal", direction.x);
+            animator.SetFloat("Vertical", direction.y);
+
+
+        }
+
+        void increaseTargetInt()
+        {
+            targetPoint++;
+            if (targetPoint >= patrolPoints.Length)
+            {
+                targetPoint = 0;
+            }
+        }
+
+    }
 }

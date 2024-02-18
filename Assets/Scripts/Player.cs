@@ -82,7 +82,7 @@ public class Player : MonoBehaviour
         }
         else if (collision.gameObject.tag == "Lion")
         {
-            Debug.Log("Colliding with Horse");
+            Debug.Log("Colliding with Lion");
             theAnimal = "Lion";
         }
         else if (collision.gameObject.tag == "Pig")
