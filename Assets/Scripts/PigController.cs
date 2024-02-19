@@ -11,9 +11,10 @@ using UnityEngine;
         private bool isInProximity = false;
         public Transform[] patrolPoints;
         public int targetPoint;
+        IInteractable theInteraction = new InteractionClass();
 
-        // Start is called before the first frame update
-        void Start()
+    // Start is called before the first frame update
+    void Start()
         {
             // target = GameObject.Find("Player").GetComponent<Transform>();
             animator = GetComponent<Animator>();

@@ -25,9 +25,9 @@ namespace Assets.Scripts
         public int targetPoint;
         public float speed;
         private Animator animator;
-        Gorilla myGorilla; 
+        Gorilla myGorilla;
+        IInteractable theInteraction = new InteractionClass();
 
-       
         void Start()
         {
             targetPoint = 0;

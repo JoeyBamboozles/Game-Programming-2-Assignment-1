@@ -30,4 +30,19 @@ public class Animal : MonoBehaviour
     }
 }
 
+interface IInteractable
+{
+    void Interact();
+}
+
+class InteractionClass : IInteractable
+{
+    // Explicit interface member implementation:
+    void IInteractable.Interact()
+    {
+        // Method implementation.
+    }
+
+}
+
 

@@ -8,7 +8,9 @@ using UnityEngine;
         public int targetPoint;
         public float speed;
         private Animator animator;
-        
+
+        IInteractable theInteraction = new InteractionClass();    
+
         // Start is called before the first frame update
         void Start()
         {

@@ -32,6 +32,7 @@ public class HorseController : MonoBehaviour
     private bool isInProximity = false;
     public Transform[] patrolPoints;
     public int targetPoint;
+    IInteractable theInteraction = new InteractionClass();
 
     void Start()
     {
