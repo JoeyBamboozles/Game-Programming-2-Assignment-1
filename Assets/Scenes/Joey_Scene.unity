@@ -885,7 +885,7 @@ PrefabInstance:
       objectReference: {fileID: 339302027}
     - target: {fileID: 4354577049066082145, guid: f0388aa661bf77a408ac9f1b25f90a03, type: 3}
       propertyPath: m_Name
-      value: Animal_PF_Horse
+      value: Horse
       objectReference: {fileID: 0}
     - target: {fileID: 7459557687077644350, guid: f0388aa661bf77a408ac9f1b25f90a03, type: 3}
       propertyPath: m_Radius
@@ -908,6 +908,18 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 18eecc11f97654141ae370bac51a2a73, type: 3}
+    - target: {fileID: 2408155901533660616, guid: 4be83f03f00edc745b021c4dd19ded04, type: 3}
+      propertyPath: m_Size.x
+      value: 2.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2408155901533660616, guid: 4be83f03f00edc745b021c4dd19ded04, type: 3}
+      propertyPath: m_Size.y
+      value: 2.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2408155901533660616, guid: 4be83f03f00edc745b021c4dd19ded04, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4360494016485269868, guid: 4be83f03f00edc745b021c4dd19ded04, type: 3}
       propertyPath: thePig
       value: 
@@ -1155,7 +1167,7 @@ GameObject:
   - component: {fileID: 857525995}
   m_Layer: 0
   m_Name: Collisions
-  m_TagString: Untagged
+  m_TagString: Pig
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3416,7 +3428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1243434603}
   m_Layer: 0
-  m_Name: Waypoints3
+  m_Name: HorseWaypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3455,7 +3467,7 @@ GameObject:
   - component: {fileID: 1246944634}
   m_Layer: 0
   m_Name: 'Walls '
-  m_TagString: Untagged
+  m_TagString: Gorilla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24045,7 +24057,7 @@ GameObject:
   - component: {fileID: 1314841018}
   - component: {fileID: 1314841017}
   m_Layer: 0
-  m_Name: Grid_?
+  m_Name: Grid_AllMembers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24312,7 +24324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1457334616}
   m_Layer: 0
-  m_Name: Waypoints
+  m_Name: GorillaWaypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24431,7 +24443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1479246813}
   m_Layer: 0
-  m_Name: Waypoints2
+  m_Name: PiggyWaypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46171,7 +46183,7 @@ GameObject:
   - component: {fileID: 1561073790}
   m_Layer: 0
   m_Name: Collisions
-  m_TagString: Untagged
+  m_TagString: Lion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49399,7 +49411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2110893100}
   m_Layer: 0
-  m_Name: Waypoints(Lion)
+  m_Name: LionWaypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49490,7 +49502,7 @@ GameObject:
   - component: {fileID: 2136708253}
   m_Layer: 0
   m_Name: Collisions
-  m_TagString: Untagged
+  m_TagString: Horse
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51755,7 +51767,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1539541595697241978, guid: eb5f26137a8b0ae489d80b99b317c1ed, type: 3}
       propertyPath: m_Name
-      value: Animal_Piggy
+      value: Pig
       objectReference: {fileID: 0}
     - target: {fileID: 1602497513818152342, guid: eb5f26137a8b0ae489d80b99b317c1ed, type: 3}
       propertyPath: m_Radius
@@ -51817,7 +51829,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1602497513818152342, guid: eb5f26137a8b0ae489d80b99b317c1ed, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -51928,6 +51941,10 @@ PrefabInstance:
       value: 11.53
       objectReference: {fileID: 0}
     - target: {fileID: 1283077731713191901, guid: c32ecc46b6f5f2e4f9b6517e55903422, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1283077731713191901, guid: c32ecc46b6f5f2e4f9b6517e55903422, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -51991,7 +52008,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gorilla
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1283077731713191901, guid: c32ecc46b6f5f2e4f9b6517e55903422, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -52004,8 +52022,9 @@ SceneRoots:
   - {fileID: 1926504674}
   - {fileID: 1361761537}
   - {fileID: 1780267220}
-  - {fileID: 1314841018}
   - {fileID: 1674650924}
+  - {fileID: 2122287978}
+  - {fileID: 1314841018}
   - {fileID: 3816637771709556838}
   - {fileID: 609558357}
   - {fileID: 2049688527633128528}
@@ -52014,5 +52033,4 @@ SceneRoots:
   - {fileID: 1457334616}
   - {fileID: 1479246813}
   - {fileID: 1243434603}
-  - {fileID: 2122287978}
   - {fileID: 2110893100}

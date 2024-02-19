@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4913037477514452494}
   - component: {fileID: 5548943665427133639}
   m_Layer: 0
-  m_Name: Animal_PF_Gorilla
+  m_Name: Gorilla
   m_TagString: Gorilla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
