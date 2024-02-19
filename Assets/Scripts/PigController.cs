@@ -2,29 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Scripts
-{
-    public class Piggy : Animal
-    {
-        public Piggy(string name, int age, string species) : base(name, age, species)
-        {
-            Name = name;
-            Age = age;
-            Species = species;
-        }
-        public override void MakeSound()
-        {
-            Debug.Log("The piggy goes Oink!: ");
-        }
-    }
-
-    public class PiggyController : MonoBehaviour
+        public class PiggyController : MonoBehaviour
     {
         private Transform target;
         public float speed;
         private Vector2 movement;
         private Animator animator;
-        Piggy myPiggy;
         private bool isInProximity = false;
         public Transform[] patrolPoints;
         public int targetPoint;
@@ -34,7 +17,6 @@ namespace Assets.Scripts
         {
             // target = GameObject.Find("Player").GetComponent<Transform>();
             animator = GetComponent<Animator>();
-            myPiggy = new Piggy("Tom", 13, "Piglet");
         }
         // Update is called once per frame
         void Update()
@@ -62,5 +44,5 @@ namespace Assets.Scripts
         }
     }
 
-}
+
 
