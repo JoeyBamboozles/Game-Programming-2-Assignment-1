@@ -15,7 +15,7 @@ namespace Assets.Scripts
         }
         public override void MakeSound()
         {
-            Debug.Log("Grumblebuns packs a vicious roar!"); 
+            Debug.Log("Roar"); 
         }
     }
 
@@ -32,7 +32,7 @@ namespace Assets.Scripts
         {
             targetPoint = 0;
             animator = GetComponent<Animator>();
-            myGorilla = new Gorilla("Grumblebuns", 20, "Gorilla"); // Changed Lion's info to Gorilla's info
+            myGorilla = new Gorilla("Grumblebuns", 20, "Gorilla"); 
         }
 
         

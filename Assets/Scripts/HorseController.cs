@@ -14,7 +14,7 @@ public class Horse : Animal
     }
     public override void MakeSound()
     {
-        Debug.Log("The horse neighs: ");
+        Debug.Log("Neigh");
     }
     //public override void Display()
     //{

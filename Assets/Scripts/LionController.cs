@@ -1,14 +1,30 @@
+using Assets.Scripts;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-    public class LionPatrol : MonoBehaviour
+public class Lion : Animal
+{
+    public Lion(string name, int age, string species) : base(name, age, species)
+    {
+        Name = name;
+        Age = age;
+        Species = species;
+    }
+    public override void MakeSound()
+    {
+        Debug.Log("Growl");
+    }
+}
+
+
+     public class LionController : MonoBehaviour
     {
         public Transform[] patrolPoints;
         public int targetPoint;
         public float speed;
         private Animator animator;
-
+        Lion myLion;
         IInteractable theInteraction = new InteractionClass();    
 
         // Start is called before the first frame update
@@ -16,7 +32,8 @@ using UnityEngine;
         {
             targetPoint = 0;
             animator = GetComponent<Animator>();
-        }
+            myLion = new Lion("Alex", 10, "Lion");
+    }
 
         // Update is called once per frame
         void Update()
