@@ -1,18 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Yarnspinner : MonoBehaviour
+public class YarnSpinnerNode : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public string nodeName;
+
+    private Yarn.Unity.DialogueRunner dialogueRunner;
+
+    private void Start()
     {
-        
+        dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ActivateNode()
     {
-        
+        if (!string.IsNullOrEmpty(nodeName) && dialogueRunner != null)
+        {
+            dialogueRunner.StartDialogue(nodeName);
+        }
     }
 }
