@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
-using TMPro; // Add this line to use TextMeshPro
+using TMPro; 
 
 public class Player : MonoBehaviour
 {
@@ -28,6 +28,8 @@ public class Player : MonoBehaviour
     public TextMeshProUGUI horseText;
     public TextMeshProUGUI pigText;
 
+    public Yarn.Unity.DialogueRunner dialogueRunner;
+
     private bool isFKeyPressed = false;
 
     private void Start()
@@ -36,7 +38,7 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
 
-        // Make the TextMeshPro UIs invisible at the start
+        // Makes the TextMeshPro UIs invisible at the start
         gorillaText.gameObject.SetActive(false);
         lionText.gameObject.SetActive(false);
         horseText.gameObject.SetActive(false);
@@ -69,19 +71,36 @@ public class Player : MonoBehaviour
         {
             case "Gorilla":
                 theGorilla.Play();
-                gorillaText.gameObject.SetActive(false); // Hide text after F key is pressed
+                gorillaText.gameObject.SetActive(false); 
                 break;
             case "Lion":
                 theLion.Play();
-                lionText.gameObject.SetActive(false); // Hide text after F key is pressed
+                lionText.gameObject.SetActive(false); 
                 break;
             case "Horse":
                 theHorse.Play();
-                horseText.gameObject.SetActive(false); // Hide text after F key is pressed
+                horseText.gameObject.SetActive(false);
                 break;
             case "Pig":
                 thePig.Play();
-                pigText.gameObject.SetActive(false); // Hide text after F key is pressed
+                pigText.gameObject.SetActive(false); 
+                break;
+        }
+
+        // Activate respective yarn spinner node based on theAnimal
+        switch (theAnimal)
+        {
+            case "Gorilla":
+                dialogueRunner.StartDialogue("Gorilla"); 
+                break;
+            case "Lion":
+                dialogueRunner.StartDialogue("Lion"); 
+                break;
+            case "Horse":
+                dialogueRunner.StartDialogue("Horse"); 
+                break;
+            case "Pig":
+                dialogueRunner.StartDialogue("Piggy"); 
                 break;
         }
     }
@@ -102,19 +121,19 @@ public class Player : MonoBehaviour
             {
                 case "Gorilla":
                     theAnimal = "Gorilla";
-                    gorillaText.gameObject.SetActive(true); // Show text when colliding with Gorilla
+                    gorillaText.gameObject.SetActive(true); 
                     break;
                 case "Lion":
                     theAnimal = "Lion";
-                    lionText.gameObject.SetActive(true); // Show text when colliding with Lion
+                    lionText.gameObject.SetActive(true); 
                     break;
                 case "Horse":
                     theAnimal = "Horse";
-                    horseText.gameObject.SetActive(true); // Show text when colliding with Horse
+                    horseText.gameObject.SetActive(true); 
                     break;
                 case "Pig":
                     theAnimal = "Pig";
-                    pigText.gameObject.SetActive(true); // Show text when colliding with Pig
+                    pigText.gameObject.SetActive(true); 
                     break;
             }
         }
@@ -122,7 +141,7 @@ public class Player : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        // Reset isFKeyPressed when exiting the trigger
+        
         isFKeyPressed = false;
 
         // Make all TextMeshPro UIs invisible when not colliding
